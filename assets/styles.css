@@ -1,0 +1,109 @@
+#page-header {
+    display:flex;
+    justify-content: center;
+}
+
+#page-header {
+    text-align: center;
+    color: black;
+    font-family: "Gentium Book Basic";
+    font-size: 75px;
+    font: weight 700px;
+    line-height:26.4px;
+}
+
+#page-subheader {
+    text-align: center;
+    font-style: italic;
+    color:black;
+    font-family: "Gentium Book Basic";
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 15.4px;
+}
+
+#disclaimer {
+        text-align: center;
+        font-style: italic;
+        color:black;
+        font-family: "Gentium Book Basic";
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 15.4px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+input {
+    width: 400px;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    background-color: #ebf1fa;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+}
+
+.center-form {
+    display: flex;
+    justify-content: center;
+}
+
+input[type=text] {
+    background-color: #ebf1fa;
+    background-image: url('https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-2.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left:40px;
+    background-size: 20px;
+}
+
+
+
+
+.card {
+    text-align: center;
+    background-color: #ebf1fa;
+    width: 400px;
+    height: 500px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    overflow: auto;
+    align-items: center;
+}
+
+.list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-section {
+    align-items: center;
+}
+
+img {
+    width: 150px;
+    height: 250px;
+    margin-top: 20px;
+}
+
+.row {
+    border-radius: 20px;
+}
