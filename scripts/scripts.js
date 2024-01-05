@@ -1,4 +1,4 @@
-require('dotenv').config();
+
 const form = document.getElementById('search');
 const searchInput = document.getElementById('query');
 const main = document.getElementById('section');
